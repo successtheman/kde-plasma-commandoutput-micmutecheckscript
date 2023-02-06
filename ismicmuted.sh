@@ -14,6 +14,9 @@ CURRENT_SOURCE=$(pactl info | grep "Default Source" | cut -f3 -d" ")
 
 # List lines in pactl after the source name match and pick mute status
 Muted=$(pactl list sources | grep -A 10 $CURRENT_SOURCE | grep "Mute: yes")
+
+#Mic Mute Status logic from here https://askubuntu.com/a/1291627
+
 ##test echo Muted variable for debugging
 # echo $Muted
 #if statement for checking if mic is muted or not ([-n ] checks if the variable is null or not) https://unix.stackexchange.com/a/109631
@@ -26,3 +29,5 @@ else
   #printf Unmuted with mic on left side in Green
   printf "%b" "${green} Unmuted${resetcolor}"
 fi
+
+#printf formatting from here https://stackoverflow.com/a/5412825
