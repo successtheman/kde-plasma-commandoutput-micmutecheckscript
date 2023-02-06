@@ -29,7 +29,9 @@ Then add it in the command output configuration for the on click action by calli
 
 # Credits
 - [Credit for Mute status check logic is from this askUbuntu comment posted by "pragman".](https://askubuntu.com/a/1291627)
+- [Credit for if statement null value checking is from this Unix StackExchange comment posted by "terdon".](https://unix.stackexchange.com/a/109631)
 - [Credit for getting colors to work with `printf` (which also allowed fontawesome icons to display as an added bonus) is from this StackOverflow comment posted by "Vlad".](https://stackoverflow.com/a/5412825)
+
 
 ---
 
