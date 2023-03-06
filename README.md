@@ -2,7 +2,7 @@
 - Little script I made that shows if my mic is muted or not for the KDE/Plasma command output widget. 
 
 ---
-## This script assumes you are on Ubuntu 22.04.2, and use Pulseaudio/alsa (any other configurations may or may not work, I have not tested them and won't be providing support for them
+## This script assumes you are on Ubuntu 22.04.2, and use Pulseaudio/alsa. Any other configurations may or may not work, I have not tested them and won't be providing support for them.
 
 ## Requires fontawesome package installed for the mic icons to show next to the text.
 - For Ubuntu the package is `fonts-font-awesome` but it may vary depending on your Linux distribution (if it's not that you will have to search around).
